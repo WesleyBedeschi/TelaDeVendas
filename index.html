@@ -209,13 +209,13 @@
 
         // Função para buscar sugestões de produtos conforme o usuário digita
         function buscarSugestoes(nome) {
-            return fetch(`http://localhost:4000/buscarsugestoes?nome=${nome}`)
+            return fetch(`https://ecommtools.madeiranit.com.br/buscarsugestoes?nome=${nome}`)
                 .then(response => response.json());
         }
 
         // Função para buscar sugestões de clientes conforme o usuário digita
         function buscarSugestoesCliente(nome) {
-            return fetch(`http://localhost:4000/buscarcliente?nome=${nome}`)
+            return fetch(`https://ecommtools.madeiranit.com.br/buscarcliente?nome=${nome}`)
                 .then(response => response.json());
         }
 
